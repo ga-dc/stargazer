@@ -3,7 +3,7 @@
 We're going to build a stargazing application that lets users search for their favorite stars by name, then displays an image of that star on the page.
 
 ## Tasks
-- When a user types in a star name into the `#search-name` input on the page, an AJAX request is sent to the `strudel.org.uk` API (full URL in starter code).
+- When a user types in a star name into the `#search-name` input on the page, an AJAX request is sent to the [strudel.org.uk](http://strudel.org.uk) API (full URL in starter code).
 - When the AJAX response comes back with an image URL, parse the JSON it comes in to get the image URL and add the image to the DOM in the `#preview` element
 - If no star with the name the user typed in is found, display an error message informing the user in the `#preview` section instead.
 
